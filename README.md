@@ -36,7 +36,7 @@ To use PipeLLM with applications compiled with `nvcc`, the applications should b
 
 Apart from the basic steps, the following should be done:
 
-First, move `./libcudart_static.a` to `/usr/local/cuda/lib64/` (please backup the original file first).
+First, copy `$(pwd)/libcudart_static.a` to `/usr/local/cuda/lib64/` (please backup the original file first).
 
 Next, compile pytorch from source.
 
