@@ -1,0 +1,31 @@
+OPENSSL_3.0.0 {
+    EVP_CIPHER_CTX_ctrl;
+    EVP_EncryptInit_ex;
+    EVP_EncryptUpdate;
+    EVP_EncryptFinal_ex;
+    EVP_DecryptInit_ex;
+    EVP_DecryptUpdate;
+    EVP_DecryptFinal_ex;
+
+    OPENSSL_init_crypto;
+    CRYPTO_malloc;
+    CRYPTO_free;
+    EVP_MAC_fetch;
+    EVP_MAC_free;
+    EVP_MAC_init;
+    EVP_MAC_update;
+    EVP_MAC_final;
+    EVP_MAC_CTX_new;
+    EVP_MAC_CTX_free;
+    HMAC;
+    EVP_CIPHER_CTX_new;
+    EVP_CIPHER_CTX_free;
+    EVP_CIPHER_CTX_get_key_length;
+    EVP_aes_256_gcm;
+    OSSL_PARAM_construct_utf8_string;
+    OSSL_PARAM_construct_end;
+};
+
+OPENSSL_3.0.3 {
+
+};
